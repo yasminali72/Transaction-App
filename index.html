@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Transaction App</title>
+</head>
+<body>
+    
+
+    <div class="mb-5 mt-5 w-75 m-auto">
+      <label for="input" class="form-label">Customer Name or Transaction amount.</label>
+        <input type="text" class="form-control " id="input" placeholder="Type to search...">
+      </div>
+
+
+    <table class="table border-1 border-black  ">
+        <thead class="table-light text-center ">
+          <tr >
+            <th scope="col">Customer ID</th>
+                <th scope="col" >Customer Name</th>
+                <th scope="col">Transaction Date</th>
+                <th scope="col">Transaction Amount</th>
+          </tr>
+          
+        </thead>
+        <tbody id="tbody" class="text-center">
+          
+        </tbody>
+      </table>
+
+      <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+
+
+      <script
+      src="js/Chart.js">
+      </script>
+      <script src="js/bootstrap.bundle.js"></script>
+      <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/main.js" ></script>
+</body>
+</html>
